@@ -1,0 +1,47 @@
+.side-bar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(10, 70, 209);
+}
+
+.sidebar-list {
+  padding: 0;
+}
+
+.sidebar-list .row {
+  width: 120%;
+  height: 80px;
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.sidebar-list .row:hover {
+  cursor: pointer;
+  background-color: rgb(192, 214, 66);
+}
+
+.sidebar-list #active {
+  color: white;
+  background-color: rgb(103, 117, 23);
+  border-radius: 15%;
+}
+
+.row #icon {
+  flex: 30%;
+  display: grid;
+  place-items: center;
+}
+
+.row #title {
+  flex: 70%;
+}

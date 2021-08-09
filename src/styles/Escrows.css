@@ -1,0 +1,68 @@
+h1 {
+  text-align: center;
+}
+
+#escrows-id {
+  display: flex;
+  margin-left: 250px;
+  flex-direction: column;
+  gap: 5px;
+
+  padding: 2rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+}
+
+th,
+td {
+  /* border: 1px solid #ffffff; */
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 16px;
+}
+
+th {
+  background-color: rgb(12, 84, 172);
+}
+
+#first-head {
+  border-start-start-radius: 20%;
+}
+
+#seventh-head {
+  border-start-end-radius: 20%;
+}
+
+td {
+  background-color: rgb(241, 241, 241);
+}
+
+#first-head-cmpltd {
+  border-start-start-radius: 20%;
+}
+
+#sixth-head-cmpltd {
+  border-start-end-radius: 20%;
+}
+
+.second-table {
+  border-collapse: collapse;
+  width: 90%;
+}
+
+#first-head-cancd {
+  border-start-start-radius: 20%;
+}
+
+#sixth-head-cancld {
+  border-start-end-radius: 20%;
+}
+
+.third-table {
+  border-collapse: collapse;
+  width: 90%;
+}
